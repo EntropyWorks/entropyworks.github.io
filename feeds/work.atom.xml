@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Ask Yazz</title><link href="askyazz.com/" rel="alternate"></link><link href="askyazz.com/feeds/work.atom.xml" rel="self"></link><id>askyazz.com/</id><updated>2015-01-21T16:07:00-08:00</updated><entry><title>CoreOS DNA spliced with Debian Wheezy</title><link href="askyazz.com/posts/2015/01/DockerDNA/" rel="alternate"></link><updated>2015-01-21T16:07:00-08:00</updated><author><name>Yazz Atlas</name></author><id>tag:,2015-01-21:askyazz.com/posts/2015/01/DockerDNA/</id><summary type="html">&lt;p&gt;Over the past few weeks I have been working extracting some of the DNA from &lt;a class="reference external" href="https://coreos.com/"&gt;CoreOS&lt;/a&gt;.
+It's been an interesting process to see what is needed to create a &lt;a class="reference external" href="https://coreos.com/"&gt;CoreOS&lt;/a&gt; like
+cluster. What I've found out is you really only need a few programs.&lt;/p&gt;
+&lt;div class="section" id="coreos-parts"&gt;
+&lt;h2&gt;CoreOS Parts&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/coreos/etcd"&gt;etcd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/coreos/etcdctl"&gt;etcdctl&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/coreos/fleet"&gt;fleet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/coreos/fleet"&gt;fleetctl&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="kelsey-hightower-parts"&gt;
+&lt;h2&gt;Kelsey Hightower Parts&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/coreos/fleet"&gt;confd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="linux-requirements"&gt;
+&lt;h2&gt;Linux Requirements&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.docker.com/"&gt;docker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.freedesktop.org/wiki/Software/systemd/"&gt;systemd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="CoreOS"></category><category term="Debian"></category><category term="etcd"></category><category term="fleetd"></category></entry></feed>

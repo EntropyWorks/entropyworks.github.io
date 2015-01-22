@@ -1,0 +1,16 @@
+{
+    "pages": [
+        {
+            "title": "CoreOS DNA spliced with Debian Wheezy", 
+            "text":"Over the past few weeks I have been working extracting some of the DNA from CoreOS. It&#39;s been an interesting process to see what is needed to create a CoreOS like cluster. What I&#39;ve found out is you really only need a few programs. CoreOS Parts etcd etcdctl fleet fleetctl Kelsey Hightower Parts confd Linux Requirements docker systemd", 
+            "tags": "Work", 
+            "loc": "./posts/2015/01/DockerDNA/"
+        },
+        {
+            "title": "About", 
+            "text":"This is just a place for me to sund off and answer some questions", 
+            "tags": "about", 
+            "loc": "./pages/about.html"
+        }        
+    ]
+}
