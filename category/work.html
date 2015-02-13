@@ -17,7 +17,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Archives</title>
+<title>Work</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <link rel="shortcut icon" href="http://askyazz.com/favicon.ico" type="image/x-icon">
@@ -76,24 +76,124 @@
     <div class="uk-grid" data-uk-grid-margin>
         
 <div class="uk-width-medium-4-5">
-    <h1 class="uk-heading-large">Archives</h1>
 
-    <article class="uk-article">
-        <a href="BBB-part-1.html" class="uk-article-title uk-link-muted mg-list-title">BBB == Big Bang Base (Part 1)</a>
-        <p class="uk-article-meta">
-            <time datetime="2015-02-12">Thu 12 February 2015</time>
-        </p>
-        <p>You ever have a project that you want to work on with other? For me its all the time. I was normally the guy in the background setting up that environment for the developers to run on. That has changed in the last 10 years with the increase use of virtualization. Now developers are deploying temporary virtual machines and containers instead. Which can make life much easier for me. But not all the time. Why Creating a common development...</p>
 
-    </article>
-    <article class="uk-article">
-        <a href="DockerDNA.html" class="uk-article-title uk-link-muted mg-list-title">CoreOS DNA spliced with Debian Wheezy</a>
-        <p class="uk-article-meta">
-            <time datetime="2015-01-21">Wed 21 January 2015</time>
-        </p>
-        <p>Over the past few weeks I have been working extracting some of the DNA from CoreOS. It's been an interesting process to see what is needed to create a CoreOS like cluster. What I've found out is you really only need a few programs. CoreOS Parts etcd etcdctl fleet fleetctl Kelsey Hightower Parts confd Linux Requirements <ul...</p>
+            <article class="uk-article" itemtype="http://schema.org/BlogPosting" itemscope="itemscope" itemprop="blogPost">
+                <a href="http://askyazz.com/BBB-part-1.html" class="uk-article-title uk-link-muted" itemprop="name">BBB == Big Bang Base (Part 1)</a>
+                <p class="uk-article-meta"><time datetime="2015-02-12" itemprop="datePublished">Thu 12 February 2015</time> • <a href="http://askyazz.com/category/work.html">Work</a> • <br class="uk-visible-small"><i class="uk-icon-comment"></i> <a href="http://askyazz.com/BBB-part-1.html#disqus_thread" itemprop="discussionUrl"></a></p>
+</p>
+                <p class="uk-article-lead" itemprop="description">Thoughs on how to create a common development environment.</p>
+                <section itemprop="articleBody"><p>You ever have a project that you want to work on with other? For me its
+all the time. I was normally the guy in the background setting up that
+environment for the developers to run on. That has changed in the last
+10 years with the increase use of virtualization. Now developers are
+deploying temporary virtual machines and containers instead.  Which can
+make life much easier for me. But not all the time.</p>
+<div class="section" id="why">
+<h2>Why</h2>
+<p>Creating a common development environment is a key feature to success in
+my opinion. Without it you can was hours trouble shooting a problem one
+developer has with while nobody else is. From choosing the wrong version
+of software to wrong expectations of operating system. There are so many
+variables to be addressed.</p>
+</div>
+<div class="section" id="gathering-data">
+<h2>Gathering Data</h2>
+<p>Before starting a project with multiple contributors a few guidelines need
+to be setup. Mostly for me this is the time I discover how simple or complex
+a project is. It is not unheard of a team of developers requesting multiple servers,
+a replicated database, caching, NoSQL, queuing, etc. So I will start there with
+a simple list of questions.</p>
+<blockquote>
+<ul>
+<li><dl class="first docutils">
+<dt>Servers</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt>Number of each kind</dt>
+<dd><ul class="first last simple">
+<li>Web server</li>
+<li>Application</li>
+<li>Database</li>
+<li>Load balancer</li>
+<li>Caching</li>
+<li>Queuing</li>
+<li>Other</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Operating Systen</dt>
+<dd><ul class="first last simple">
+<li>Version + Release</li>
+<li>Particular package repositories</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Storage</dt>
+<dd><ul class="first last simple">
+<li>Estimated application</li>
+<li>Estimated data</li>
+<li>Estimated log + rention period</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Base install requirement</dt>
+<dd><ul class="first last simple">
+<li>Version of packages needed</li>
+<li>How is development code put into production</li>
+<li>Ports that need to be open or secured</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Networking</dt>
+<dd><ul class="first last simple">
+<li>Public IP ranges</li>
+<li>Private IP ranges</li>
+<li>Number of network interfaces</li>
+<li>VLANS</li>
+<li>BONDING</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</blockquote>
+<p>Thats enought normally to get a basic idea of the layout of the environment. Each itme there
+I bet someone could write a book on if they wanted to. This also isn't a
+complete list by anyones standard.</p>
+</div>
+<div class="section" id="but-what-about-virtualzation">
+<h2>But What about Virtualzation</h2>
+<p>Thats for my next post...</p>
+</div>
+</section>
+                <a href="http://askyazz.com/BBB-part-1.html#disqus_thread"></a>
+                <hr class="uk-article-divider">
+            </article>
 
-    </article>
+
+        <article class="uk-article" itemtype="http://schema.org/BlogPosting" itemscope="itemscope" itemprop="blogPost">
+                <a href="http://askyazz.com/DockerDNA.html" class="uk-article-title uk-link-muted" itemprop="name">CoreOS DNA spliced with Debian Wheezy</a>
+                <p class="uk-article-meta"><time datetime="2015-01-21" itemprop="datePublished">Wed 21 January 2015</time> • <a href="http://askyazz.com/category/work.html">Work</a> • <br class="uk-visible-small"><i class="uk-icon-comment"></i> <a href="http://askyazz.com/DockerDNA.html#disqus_thread" itemprop="discussionUrl"></a></p>
+</p>
+                <p class="uk-article-lead" itemprop="description">Debian Wheezy + Parts of CoreOS + Docker</p>
+                <p>Over the past few weeks I have been working extracting some of the DNA from CoreOS. It's been an interesting process to see what is needed to create a CoreOS like cluster. What I've found out is you really only need a few programs. CoreOS Parts etcd etcdctl fleet fleetctl Kelsey Hightower Parts confd Linux Requirements <ul...</p>
+                <a href="http://askyazz.com/DockerDNA.html">Read More</a>
+                <hr class="uk-article-divider">
+        </article>
+
 
 </div>
  
@@ -109,7 +209,7 @@
             <div class="uk-panel uk-panel-box">
                 <ul class="uk-nav uk-nav-side">
                     <li class="uk-nav-header">Categories</li>
-                    <li ><a href="http://askyazz.com/category/work.html">Work</a></li>
+                    <li class="uk-active"><a href="http://askyazz.com/category/work.html">Work</a></li>
                     <li class="uk-nav-header">Pages</li>
                     
                     <li >
@@ -118,7 +218,7 @@
                     
 
                     <li class="uk-nav-divider"></li>
-                    <li class="uk-active"><a href="http://askyazz.com/archives.html">Archives</a></li>
+                    <li ><a href="http://askyazz.com/archives.html">Archives</a></li>
                 </ul>
             </div>
 
@@ -187,7 +287,7 @@
 
         <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
             <li class="uk-nav-header">Categories</li>
-            <li ><a href="http://askyazz.com/category/work.html">Work</a></li>
+            <li class="uk-active"><a href="http://askyazz.com/category/work.html">Work</a></li>
             <li class="uk-nav-header">Pages</li>        
             <li >
                 <a href="http://askyazz.com/pages/about.html">About</a>
