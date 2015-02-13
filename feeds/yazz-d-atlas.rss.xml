@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ask Yazz</title><link>http://askyazz.com/</link><description>WTF is he working on now...</description><atom:link href="http://askyazz.com/feeds/yazz-d-atlas.rss.xml" rel="self"></atom:link><lastBuildDate>Thu, 12 Feb 2015 12:49:00 -0800</lastBuildDate><item><title>BBB == Big Bang Base (Part 1)</title><link>http://askyazz.com/BBB-part-1.html</link><description>&lt;p&gt;You ever have a project that you want to work on with other? For me its
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ask Yazz</title><link>http://askyazz.com/</link><description>WTF is he working on now...</description><atom:link href="http://askyazz.com/feeds/yazz-d-atlas.rss.xml" rel="self"></atom:link><lastBuildDate>Thu, 12 Feb 2015 12:49:00 -0800</lastBuildDate><item><title>BBB == Big Bang Base (Part 1)</title><link>http://askyazz.com/posts/2015/02/BBB-part-1.html</link><description>&lt;p&gt;You ever have a project that you want to work on with other? For me its
 all the time. I was normally the guy in the background setting up that
 environment for the developers to run on. That has changed in the last
 10 years with the increase use of virtualization. Now developers are
@@ -94,4 +94,4 @@ complete list by anyones standard.&lt;/p&gt;
 &lt;h2&gt;But What about Virtualzation&lt;/h2&gt;
 &lt;p&gt;Thats for my next post...&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Yazz D. Atlas</dc:creator><pubDate>Thu, 12 Feb 2015 12:49:00 -0800</pubDate><guid>tag:askyazz.com,2015-02-12:BBB-part-1.html</guid><category>deployment</category><category>devops</category><category>vagrant</category><category>virtualbox</category></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Yazz D. Atlas</dc:creator><pubDate>Thu, 12 Feb 2015 12:49:00 -0800</pubDate><guid>tag:askyazz.com,2015-02-12:posts/2015/02/BBB-part-1.html</guid><category>deployment</category><category>devops</category><category>vagrant</category><category>virtualbox</category></item></channel></rss>
